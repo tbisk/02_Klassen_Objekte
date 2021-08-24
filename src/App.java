@@ -1,7 +1,10 @@
 public class App {
     
     public static void main(String[] args) {
-        ausgabe("hi"); 
+        
+    Cat cat  = new Cat(); 
+    System.out.println(cat);
+    
     }
 
     public static void ausgabe(String outputStr) {
