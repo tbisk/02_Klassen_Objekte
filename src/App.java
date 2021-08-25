@@ -3,10 +3,9 @@ public class App {
     public static void main(String[] args) {
         
     Cat cat  = new Cat(); 
-    
     ausgabe("Blick von aussen: " + cat);
-    cat.tellYourAddress();
-   
+    ausgabe("Blick von innen: " + cat.tellYourAddress());
+    
     }
 
     public static void ausgabe(String outputStr) {
