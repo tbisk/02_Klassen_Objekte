@@ -20,8 +20,21 @@ public class Cat {
         return this.name;
     }
 
+    public String tellYourFurColor(){
+        return this.name;
+    }
+
+    public int tellYourAge(){
+        return this.age;
+    }
+
+
+
     public void changeYourName(String name){
         this.name = name;
     }
     
+
+
+
 }
