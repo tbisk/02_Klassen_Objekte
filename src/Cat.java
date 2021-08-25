@@ -28,8 +28,6 @@ public class Cat {
         return this.age;
     }
 
-
-
     public void changeYourName(String name){
         this.name = name;
     }

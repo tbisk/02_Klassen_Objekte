@@ -18,8 +18,9 @@ public class App {
      
       ausgabe("--------------------");
 
-      ausgabe(String.valueOf(2));
+      // ausgabe(2); //Typ muss konvertiert werden!
       ausgabe("Wert: " + 2);
+      ausgabe(String.valueOf(2));
       ausgabe(Integer.toString(2));
    
     }
@@ -27,6 +28,5 @@ public class App {
     public static void ausgabe(String outputStr) {
       System.out.println(outputStr);  
     }
-
 
 }
